@@ -115,6 +115,7 @@ figure.concept{
 }
 
 #about-me{
+    margin: auto;
     display: flex;
     text-align: center;
     padding-top: 5%;

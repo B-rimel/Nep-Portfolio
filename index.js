@@ -31,7 +31,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
   
-  
   function openConceptModal() {
     var conceptModal = document.getElementById('conceptModal');
     conceptModal.style.display = 'flex'; // Display the modal

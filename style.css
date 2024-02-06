@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+* {
+    font-family: "Amatic SC";
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a, a:hover, a:active {
+    text-decoration: none;
+    color: #A580FF;
+}
+
+header {
+    height: 10vh;
+    background-color: #EDE7FF;
+    display: flex;
+    justify-content:space-between;
+    padding: 0 10% 0 10%;
+    position:fixed;
+    top: 0; left: 0;
+    width: 100%;
+}
+
+.header-element {
+    width: 33%;
+    justify-content: center;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul{
+        list-style:none;
+        display: flex;
+        gap: 20px;
+        padding: 0;
+    }
+
+    li.button{
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        outline: solid #A580FF 1px;
+        padding: 10px;
+        border-radius: 15px;
+    }
+}
+
+svg {
+    stroke: #A580FF;
+    fill:#A580FF;
+}
+
+#title {
+    font-size: 64px;
+    font-weight: bold;
+    color: #A580FF;
+}
+
+main {
+    background-color: #C2AEFF;
+    padding: 0 10% 0 10%;
+}
+
+#select-buttons {
+    font-size: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#select-buttons span:hover, #select-buttons span:active {
+    text-decoration: underline;
+}
+#project-wrapper {
+    padding-top: 10%;
+}
+#projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: auto;
+
+img {
+    width: 100%;
+    height: auto;
+}
+}
+
+figure.concept{
+    margin: auto;
+    width: 20%;
+}
+
+#conceptModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+
+#conceptModal img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+#about-me{
+    display: flex;
+    padding-top: 5%;
+    font-size: 4.3rem;
+    font-weight: bold;
+    
+    img {
+        border-radius: 50%;
+        justify-content: center;
+    }
+}
+
+.dialog-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 48px;
+
+    a {
+        color: black;
+        border: solid 1px purple;
+        padding: 10px 15px;
+        border-radius: 15px;
+    }
+}

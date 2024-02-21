@@ -24,8 +24,10 @@ header {
 
 .header-element {
     width: 33%;
+    display: flex;
     justify-content: center;
     text-align: center;
+    align-items: center;
 }
 
 nav{
@@ -146,5 +148,12 @@ figure.concept{
         border: solid 1px purple;
         padding: 10px 15px;
         border-radius: 15px;
+    }
+}
+
+@media (max-width: 1000px) {
+    #about-me {
+        display: flex;
+        flex-direction: column;
     }
 }

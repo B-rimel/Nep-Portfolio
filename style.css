@@ -166,4 +166,8 @@ figure.concept{
         flex-direction:column;
         font-size: 3rem;
     }
+
+    #about-me img {
+        width: 100%;
+    }
 }

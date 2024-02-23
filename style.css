@@ -156,4 +156,14 @@ figure.concept{
         display: flex;
         flex-direction: column;
     }
+
+    header {
+        display: none;
+    }
+
+    #select-buttons {
+        display: flex;
+        flex-direction:column;
+        font-size: 3rem;
+    }
 }
